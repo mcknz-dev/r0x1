@@ -6,9 +6,11 @@
 }
 
 body {
-    background-image: url("/backround.png");
-    background-position: top;
-     background-repeat: repeat;
+   background-image: url('/backround.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     font-family: 'Orbitron', sans-serif;
     display: flex;
